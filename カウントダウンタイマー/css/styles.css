@@ -1,0 +1,24 @@
+.container {
+    margin: 80px 150px;
+}
+
+h1, span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p span {
+    margin-top: -40px;
+    padding-right: 20px;
+}
+
+#hour, #min, #sec {
+    font-size: 70px;
+}
+
+p.time {
+    display: inline-flex;
+    padding: 40px 40px 20px 0;
+
+}
