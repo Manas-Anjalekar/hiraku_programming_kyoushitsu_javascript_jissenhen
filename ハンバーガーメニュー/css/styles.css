@@ -1,0 +1,75 @@
+.btn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    z-index: 10;
+}
+
+.btn i {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    transition: .5s;
+}
+
+.btn i:nth-of-type(1) {
+    top: 20px;
+}
+
+.btn i:nth-of-type(2) {
+    top: 30px;   
+}
+
+.btn i:nth-of-type(3) {
+    top: 40px;
+}
+
+.btn.active i:nth-of-type(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.btn.active i:nth-of-type(2) {
+    opacity: 0;   
+}
+
+.btn.active i:nth-of-type(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: cadetblue;
+    color: #fff;
+    z-index: 9;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.container.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.item {
+    width: 480px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.item ul {
+    margin: 0 30px;
+}
+
+.item ul li {
+    margin-bottom: 20px;
+}
