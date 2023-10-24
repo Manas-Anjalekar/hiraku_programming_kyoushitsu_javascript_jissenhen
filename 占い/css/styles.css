@@ -1,0 +1,30 @@
+.container {
+    width: 360px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #efefef;
+    text-align: center;
+}
+
+#btn {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    background: red;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+    user-select: none;
+    cursor: pointer;
+}
+
+p {
+    margin: 30px 0px;
+}
+
+#result {
+    font-size: 28px;
+    font-weight: bold;
+}
