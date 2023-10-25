@@ -1,0 +1,38 @@
+.slider {
+    width: 540px;
+    margin: 20px auto 0;
+    padding: 0;
+}
+
+.img-box {
+    width: 540px;
+    height: 380px;
+}
+
+.button {
+    width: 540px;
+    margin: 0 auto;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+#prev, #next {
+    margin: 8px 30px;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    user-select: none;
+    cursor: pointer;
+}
+
+#page {
+    height: 18px;
+    line-height: 18px;
+    margin: 8px 0;
+    user-select: none;
+    color: #fff;
+}
