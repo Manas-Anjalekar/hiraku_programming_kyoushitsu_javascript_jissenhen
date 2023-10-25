@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>クイズ</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <h1>クイズ</h1>
+    <h2 id="question">ここに問題表示</h2>
+    <ul>
+        <li id="ans1">選択肢1</li>
+        <li id="ans2">選択肢2</li>
+        <li id="ans3">選択肢3</li>
+    </ul>
+
+    <div class="btn-box">
+        <button type="button" id="answer1" onClick="answerCheck(1)">回答1</button>
+        <button type="button" id="answer2" onClick="answerCheck(2)">回答2</button>
+        <button type="button" id="answer3" onClick="answerCheck(3)">回答3</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
