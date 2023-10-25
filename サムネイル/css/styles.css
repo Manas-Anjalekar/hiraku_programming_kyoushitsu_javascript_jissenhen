@@ -1,0 +1,19 @@
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 480px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-thumbnail {
+    width: 90px;
+    cursor: pointer;
+}
+
+.item-mainvisual {
+    width: 380px;
+}
